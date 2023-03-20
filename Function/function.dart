@@ -6,3 +6,5 @@ void main(){
   //calling function
   addTwoNumbers();
 }
+
+//when we need to do multiple task or work. then we will use normal function
