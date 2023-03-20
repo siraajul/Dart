@@ -9,7 +9,7 @@ void main(){
   print(pi);
   //allocate on compile time
 }
-class Exmple{
+class Example{
   final int age = 50;
   static const double pi = 3.1416;
   // can't use const inside the class , then we need to add Static before const
