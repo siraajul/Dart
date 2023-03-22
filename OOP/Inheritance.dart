@@ -2,6 +2,7 @@ void main(){
   var son = Son();
   son.methodOne();
   son.name;
+
 }
 class Father{
   int age =50;
@@ -14,6 +15,6 @@ class Father{
   }
 }
 class Son extends Father{
-  String name = 'son';
+
 
 }
