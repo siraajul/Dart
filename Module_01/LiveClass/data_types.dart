@@ -9,10 +9,18 @@ main(){
   double totalAmount = 40000.45;  //use 'double' to store floating type datatype
   String accountHolderName = 'Sirajul';//use 'string' to store text in program
   bool isAccountHolderBangladeshi = true;// use 'bool' to check true or false
+  String address = "Brahmanbaria";
+  String companyName = '''BengalDroid''';
 
+  String cont = accountHolderName +" "+ address;//String Concatenation
+
+  //outputs
   print(accountHolderName);
   print(accountHolderAge); //Account Holder Age Output
   print(totalAmount); //Account Holder Total Amount in Bank
   print(isAccountHolderBangladeshi);
+  print(address);
+  print(companyName);
+  print(cont);
 
 }
