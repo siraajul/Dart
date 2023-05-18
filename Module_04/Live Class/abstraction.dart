@@ -4,13 +4,6 @@
 
 
  abstract class Student{
-  void Studying(){
-
-  }
-
-  void assignment(){
-
-  }
 
   void attendclass();
 }
@@ -44,4 +37,13 @@ main(){
   shahir.attendclass();
   BusinessMan abd = BusinessMan('BengalDroid');
   abd.attendclass();
+
+  //Polymorphism
+  //Student But Different Person
+  Student Rafat = Person('Rafat', 26);
+  Student Yousuf = Person('Yousuf', 29);
+
+  Yousuf.attendclass();
+  Rafat.attendclass();
+
 }
