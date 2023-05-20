@@ -23,5 +23,20 @@ class Dog extends Animal{
   @override
   void makeSound() {
     // TODO: implement makeSound
+    print('Woof!');
+  }
+}
+class Cat extends Animal{
+  String color;
+
+  Cat(String name, int age, this.color){
+    this.name = name;
+    this.age = age;
+  }
+
+  @override
+  void makeSound() {
+    // TODO: implement makeSound
+    print('Mew !');
   }
 }
