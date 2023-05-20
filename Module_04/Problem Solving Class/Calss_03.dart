@@ -1,42 +1,55 @@
-abstract class Animal{
+abstract class Animal {
   String? name;
   int? age;
 
   //abstract method
   void makeSound();
 
-  //concrete method
-  void printDetails(){
+  // concrete method
+  void printDetails() {
     print('Name: $name');
     print('Age: $age');
   }
-
 }
-class Dog extends Animal{
+
+class Dog extends Animal {
   String breed;
 
-  Dog(String name, int age, this.breed){
+  Dog(String name, int age, this.breed) {
     this.name = name;
     this.age = age;
   }
 
   @override
   void makeSound() {
-    // TODO: implement makeSound
-    print('Woof!');
+    print('Bark!');
   }
 }
-class Cat extends Animal{
+
+class Cat extends Animal {
   String color;
 
-  Cat(String name, int age, this.color){
+  Cat(String name, int age, this.color) {
     this.name = name;
     this.age = age;
   }
 
   @override
   void makeSound() {
-    // TODO: implement makeSound
-    print('Mew !');
+    print('Meow!');
   }
+}
+
+void main() {
+  Dog dog = Dog("Buddy", 3, "Pitbull");
+  Cat cat = Cat("Whiskers", 5, "Grey");
+
+  dog.printDetails();
+  print(dog.breed);
+  dog.makeSound();
+
+  cat.printDetails();
+  print(cat.color);
+  cat.makeSound();
+
 }
