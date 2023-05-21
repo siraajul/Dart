@@ -41,7 +41,7 @@ class Cat extends Animal {
 }
 
 void main() {
-  Dog dog = Dog("Buddy", 3, "Pitbull");
+  Dog dog = Dog("Buddy", 3, "Pit-bull");
   Cat cat = Cat("Whiskers", 5, "Grey");
 
   dog.printDetails();
