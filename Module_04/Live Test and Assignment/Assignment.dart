@@ -51,13 +51,14 @@ class CurrentAccount extends Account {
 }
 
 void main() {
-  // Creating a SavingsAccount instance
-  SavingsAccount savingsAccount = SavingsAccount(12345, 1000.0, 0.05);
+
+  //SavingsAccount
+  SavingsAccount savingsAccount = SavingsAccount(10000, 1000.0, 10.10);
   savingsAccount.deposit(500.0);
   savingsAccount.withdraw(200.0);
 
-  // Creating a CurrentAccount instance
-  CurrentAccount currentAccount = CurrentAccount(54321, 2000.0, 1000.0);
+  //CurrentAccount
+  CurrentAccount currentAccount = CurrentAccount(5000, 2000.0, 1000.0);
   currentAccount.deposit(800.0);
   currentAccount.withdraw(4000.0);
 }
