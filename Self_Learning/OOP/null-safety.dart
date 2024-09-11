@@ -1,11 +1,11 @@
-void main(){
+void main() {
   String? name;
   int? age;
 
   print(name);
   print(age);
 
-  if(name == null){
+  if (name == null) {
     print('Name is Null');
   }
   name = 'Sirajul';
